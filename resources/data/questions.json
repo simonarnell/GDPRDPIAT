@@ -1,0 +1,1153 @@
+{
+    "pages": [{
+            "questions": [{
+                    "type": "radiogroup",
+                    "name": "question1",
+                    "title": "Is the establishment of your activities in European territory? Whether the processing of personal information of your undertaking takes place in the European Union or not is not relevant. If you are not established in European Union territory, but you offer goods or services to individuals in the EU or monitor them, then you should answer Y to this question.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "checkbox",
+                    "name": "question2",
+                    "title": "Do you handle information that can identify other people through one or more of the following activities? Think for instance, if you use names, identification numbers or location data. The collection of information related to individuals can be potentially intrusive to the information privacy rights of these individuals. In some types of projects information provided is more sensitive than in other ones e.g. Financial data.",
+                    "isRequired": true,
+                    "colCount": 3,
+                    "choices": [{
+                            "value": 0,
+                            "text": "Web Browsing"
+                        },
+                        {
+                            "value": 1,
+                            "text": "Account and/or Subscription Management"
+                        }, {
+                            "value": 2,
+                            "text": "Authentication and Authorization"
+                        }, {
+                            "value": 3,
+                            "text": "Customization"
+                        }, {
+                            "value": 4,
+                            "text": "Responding to User"
+                        }, {
+                            "value": 5,
+                            "text": "Service Delivery"
+                        }, {
+                            "value": 6,
+                            "text": "Sales of Products or Services"
+                        }, {
+                            "value": 7,
+                            "text": "Communications Services"
+                        }, {
+                            "value": 8,
+                            "text": "Banking and Financial Management"
+                        }, {
+                            "value": 9,
+                            "text": "Payment and Transaction Facilitation"
+                        }, {
+                            "value": 10,
+                            "text": "Charitable Donations"
+                        }, {
+                            "value": 11,
+                            "text": "Government Services"
+                        }, {
+                            "value": 12,
+                            "text": "Healthcare Services"
+                        }, {
+                            "value": 13,
+                            "text": "Education Services"
+                        }, {
+                            "value": 14,
+                            "text": "Advertising, Marketing and/or Promotion"
+                        }, {
+                            "value": 15,
+                            "text": "News and Information"
+                        }, {
+                            "value": 16,
+                            "text": "Arts and Entertainment"
+                        }, {
+                            "value": 17,
+                            "text": "Surveys and Questionnaires"
+                        }, {
+                            "value": 18,
+                            "text": "Online Gambling"
+                        }, {
+                            "value": 19,
+                            "text": "Online Gaming"
+                        }, {
+                            "value": 20,
+                            "text": "Search Engines"
+                        }, {
+                            "value": 21,
+                            "text": "State and Session Management"
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "title": "For which of the following purposes or legitimate interests do you process the information? To be legitimate, the processing of information should be based on legitimate interests. Some interests carry more weight than others. For instance processing for historical, scientific statistical or research purposes is likely to be less intrusive to information privacy rights e than processing for exercise of the right to freedom of expression or information.",
+            "questions": [{
+                    "type": "checkbox",
+                    "name": "question3a",
+                    "title": "Commercial purposes",
+                    "isRequired": false,
+                    "colCount": 1,
+                    "choices": [{
+                        "value": 0,
+                        "text": "Purposes related to the commercial objective of your undertaking"
+                    }]
+                },
+                {
+                    "type": "checkbox",
+                    "name": "question3b",
+                    "isRequired": false,
+                    "title": "Health purposes",
+                    "colCount": 2,
+                    "choices": [{
+                        "value": 0,
+                        "text": "for preventive or occupational medicine, medical diagnosis, the provision of care or treatment or the management of health-care services"
+                    }, {
+                        "value": 1,
+                        "text": "for public interest in the area of public health, such as protecting against serious cross-border threats"
+                    }, {
+                        "value": 2,
+                        "text": "for other reasons of public interest in areas such as social protection"
+                    }]
+                },
+                {
+                    "type": "checkbox",
+                    "name": "question3c",
+                    "isRequired": false,
+                    "title": "Employment context",
+                    "colCount": 2,
+                    "choices": [{
+                        "value": 0,
+                        "text": "for purposes of the recruitment and job applications within the group of undertakings"
+                    }, {
+                        "value": 1,
+                        "text": "for the performance of the contract of employment, including discharge of obligations, laid down by law and by collective agreements"
+                    }, {
+                        "value": 2,
+                        "text": "for the purposes of the exercise and enjoyment of rights and benefits related to employment"
+                    }, {
+                        "value": 3,
+                        "text": "for the purpose of the termination of the employment relationship"
+                    }]
+                },
+                {
+                    "type": "checkbox",
+                    "name": "question3d",
+                    "isRequired": false,
+                    "title": "Social security context",
+                    "colCount": 2,
+                    "choices": [{
+                        "value": 0,
+                        "text": "Processing for historical, scientific statistical or research purposes"
+                    }, {
+                        "value": 1,
+                        "text": "enforcement of legal claims and/or compliance with law enforcement agencies"
+                    }, {
+                        "value": 2,
+                        "text": "exercise of the right to freedom of expression or information (including in the media and the arts)"
+                    }]
+                },
+                {
+                    "type": "text",
+                    "name": "question3e",
+                    "isRequired": false,
+                    "title": "Other (please specify)"
+                }
+            ]
+        },
+        {
+            "title": "Collection and Use of Information",
+            "questions": [{
+                    "type": "radiogroup",
+                    "name": "question4",
+                    "title": "Are you relying exclusively on consent in order to process information of individuals? Consent means ‘any freely given specific, informed and explicit indication of his or her wishes by which the individual either by a statement or by a clear affirmative action signifies agreement to information relating to them being processed.’",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question5",
+                    "title": "How have you obtained the consent of individuals? Consent requires prior information and an explicit indication of the intent to consent.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                        "value": 0,
+                        "text": "Consent is given directly by the individual by a statement (e.g. by a consent form)"
+                    }, {
+                        "value": 1,
+                        "text": "Consent is given directly by the individual by an affirmative action (e.g. by ticking a box)"
+                    }, {
+                        "value": 2,
+                        "text": "Consent has been obtained implicitly by the individual (e.g. by merely use of the service or inactivity)"
+                    }]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question6",
+                    "title": "If individuals have given their consent, can they withdraw it with ease and whenever they want to? Individuals should be able to withdraw their consent at any time and every step of the processing of their information without detriment. It should be as easy to withdraw consent as it is to give it.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question7",
+                    "title": "Are the consequences of withdrawal of consent significant for individuals? For instance, will the service to the individual be terminated, while the individual depends on it?",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "checkbox",
+                    "name": "question8",
+                    "title": "On what basis do you process the information? In order for the processing to be lawful, at least one of these grounds must be satisfied.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                        "value": 0,
+                        "text": "The individual has given his consent"
+                    }, {
+                        "value": 1,
+                        "text": "Processing is necessary for the performance of a contract between you and the individual whose information you process"
+                    }, {
+                        "value": 2,
+                        "text": "Processing is necessary for compliance with a legal obligation you have"
+                    }, {
+                        "value": 3,
+                        "text": "Processing is necessary in order to protect vital interests of the individuals whose information you process"
+                    }, {
+                        "value": 4,
+                        "text": "None of the above"
+                    }]
+                },
+                {
+                    "type": "matrix",
+                    "title": "Do you provide clear information about:",
+                    "isRequired": true,
+                    "columns": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ],
+                    "name": "question9",
+                    "rows": [{
+                            "value": 0,
+                            "text": "the purposes for which you process personal information"
+                        },
+                        {
+                            "value": 1,
+                            "text": "the different types of information that you process"
+                        },
+                        {
+                            "value": 2,
+                            "text": "your identity"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question10",
+                    "title": "Are all the information and its subsets you handle necessary to fulfill the purposes of your project? The information you collect/process/handle should be adequate, relevant, and limited to the minimum necessary in relation to the purposes for which they are processed. This means that you have to use the minimum information necessary for your purposes, but you are not prohibited to have multiple purposes.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question11",
+                    "title": "Is it possible for the individual to restrict the purposes for which you process the information? For instance, are individuals given the possibility to opt-out of receiving email offers from you?",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question12",
+                    "title": "Is the nature of your operations such that you need to comply with rules regarding data processing in more than one set of regulations? Think for instance specific (data protection) regulation pertaining to you, such as for financial or health services.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question13",
+                    "title": "Are decisions being made on the basis of the information you process? For instance, information can be collected for historical purposes without being used as part of a decision process.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question14",
+                    "title": "Do the outcomes of these decisions have a direct effect on the individuals whose information is processed? For instance, are offers based on the characteristics of individuals being collected by your system?",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question15",
+                    "title": "Does the information you process about individuals produce a full and correct image of these individuals? The chances of taking wrong decisions increase if the information is incomplete, outdated or wrong. In such cases, the risk of setting individuals’ rights at stake is higher.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question16",
+                    "title": "Does the information you process about the individual come from different sources? Think, for instance, whether you obtain databases from other parties",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question17",
+                    "title": "Are the individuals whose information you process aware of the fact that the information comes from different sources? Consider whether you have informed the individuals about the information you process and which might come from other sources.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question18",
+                    "title": "Does your project involve the use of existing personal information for new purposes? For instance, you may decide that you want to use the contact details you obtained for signaling the user that their order has been fulfilled for marketing purposes later on.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question19",
+                    "title": "Do your additional processing operations relate closely to the original purposes for which you first collected the information? For instance, using a customer’s home address for frequent delivery of packages after the first delivery is compatible use, whereas providing a patient list to one spouse, who runs a travel agency; so that he can offer special holiday deals to patients needing recuperation is not.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question20",
+                    "title": "Is the use of existing personal information for new purposes clearly communicated to the individual in a timely manner? Consider whether you have informed the individuals about the specific (new) purposes for which you process the information.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question21",
+                    "title": "Is the use of existing personal information for new purposes clearly communicated to your organization's data protection officer? Consider whether you have informed the data protection officer about the specific (new) purposes for which you process the information.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question22",
+                    "title": "Is the use of existing personal information for purposes not previously notified clearly communicated to the Data protection authority? Consider whether you have informed the Data protection authority about the specific (new) purposes for which you process the information.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question23",
+                    "title": "Do you process information which could potentially be perceived as discriminatory? Think for instance, whether you process information solely on the basis of race or ethnic origin, political opinion, religion or beliefs, trade union membership, sexual orientation or gender identity etc.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question24",
+                    "title": "Are procedures in place to provide individuals access to information about themselves? Consider, for instance, whether individuals can request an overview of the information about them that you have",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question25",
+                    "title": "Can the information you process be corrected by the individuals, or can individuals ask for correction of the information? An increased level of involvement by the individual decreases the likelihood of unwarranted events (e.g. incorrect information)",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question26",
+                    "title": "Do you check the accuracy and completeness of information on entry? Consider, for instance, whether you apply specific procedures (e.g. use of journalistic archives to double- check the content) in order to ensure the validity and authenticity of the information you process.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question27",
+                    "title": "How often is the personal information you process updated? Outdated information has a negative impact on the accuracy of information you process.",
+                    "isRequired": true,
+                    "colCount": 3,
+                    "choices": [{
+                            "value": 0,
+                            "text": "Never"
+                        },
+                        {
+                            "value": 1,
+                            "text": "Rarely"
+                        },
+                        {
+                            "value": 2,
+                            "text": "Whenever necessary to comply with technological developments"
+                        },
+                        {
+                            "value": 3,
+                            "text": "When requested by the individual"
+                        },
+                        {
+                            "value": 4,
+                            "text": "Frequently"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question28",
+                    "title": "How severe would you deem the consequences, in case you process outdated information for the individuals it refers to? For instance, having outdated information about individuals (e.g. wrong date of birth) may hold you liable.",
+                    "isRequired": true,
+                    "colCount": 4,
+                    "choices": [{
+                            "value": 0,
+                            "text": "None"
+                        },
+                        {
+                            "value": 1,
+                            "text": "Low"
+                        },
+                        {
+                            "value": 2,
+                            "text": "Medium"
+                        },
+                        {
+                            "value": 3,
+                            "text": "High"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question29",
+                    "title": "Would the fact that the information you process is not up to date lead to sanctions provided in relevant regulations? Think, for instance, whether the nature of your activities requires you to comply with specific sets of regulations, which provide sanctions in order to keep the information updated.",
+                    "isRequired": true,
+                    "colCount": 3,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        },
+                        {
+                            "value": 2,
+                            "text": "I do not know"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question30",
+                    "title": "Do you have a Data Security Policy?  Policy? Think of aspects such as: is it clear who is responsible for security, do you adopt security standards, is the (sensitive) nature of the information you process taken into account",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question31",
+                    "title": "Do you implement any technical and organizational security measures from the outset of your activities? Think, for instance, whether you are using signatures, hashes, encryption etc. or whether you implement Privacy by Design and/or Privacy by Default mechanisms.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question32",
+                    "title": "Do you differentiate your security measures according to the type of information that you process? For instance information related to race or ethnic origin, political or sexual orientation, religion or gender identity of the individuals requires specific security measures.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question33",
+                    "title": "Are your personnel trained on how to process the information you deal with according to the organisational policies you implemented? Consider if you apply specific procedures or timetables to train your employees with regard to the manner in which they should process the information.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question34",
+                    "title": "How often are your Security and Privacy Policies updated?",
+                    "isRequired": true,
+                    "colCount": 3,
+                    "choices": [{
+                            "value": 0,
+                            "text": "Never"
+                        },
+                        {
+                            "value": 1,
+                            "text": "Rarely"
+                        },
+                        {
+                            "value": 2,
+                            "text": "Whenever necessary to comply with technological developments"
+                        },
+                        {
+                            "value": 3,
+                            "text": "Frequently"
+                        }
+                    ]
+                },
+                {
+                    "type": "checkbox",
+                    "name": "question35",
+                    "title": "Do you adopt one or more of the following measures and/or procedures as a safeguard or security measure to ensure the protection of personal information? The application of one or more of the following measures may prevent potential misuse of the information you handle.",
+                    "isRequired": true,
+                    "colCount": 3,
+                    "choices": [{
+                            "value": 0,
+                            "text": "Personal information is kept confidential"
+                        },
+                        {
+                            "value": 1,
+                            "text": "Access control is enforced"
+                        },
+                        {
+                            "value": 2,
+                            "text": "Whenever necessary to comply with technological developments"
+                        },
+                        {
+                            "value": 3,
+                            "text": "Segregation of duty is used"
+                        },
+                        {
+                            "value": 4,
+                            "text": "Special authorization for personnel who access the information"
+                        },
+                        {
+                            "value": 5,
+                            "text": "Compliance with further regulations is ensured"
+                        },
+                        {
+                            "value": 6,
+                            "text": "Use of personal information are properly documented"
+                        },
+                        {
+                            "value": 7,
+                            "text": "Procedures to maintain personal information use up-to-date regularly"
+                        },
+                        {
+                            "value": 8,
+                            "text": "Subcontractors follow the same guidelines on documenting the use of information"
+                        },
+                        {
+                            "value": 9,
+                            "text": "Procedures to notify individuals, when necessary, are in place"
+                        },
+                        {
+                            "value": 10,
+                            "text": "Procedures to take into account the impact of the information lifecycle"
+                        },
+                        {
+                            "value": 11,
+                            "text": "Procedures to record individuals’ requests for correction of information"
+                        },
+                        {
+                            "value": 12,
+                            "text": "Specific procedures to respond to Law Enforcement access or court orders"
+                        },
+                        {
+                            "value": 13,
+                            "text": "Modalities to express, withhold, or withdraw informed consent to the processing"
+                        },
+                        {
+                            "value": 14,
+                            "text": "Anonymization"
+                        },
+                        {
+                            "value": 15,
+                            "text": "Pseudonymisation"
+                        },
+                        {
+                            "value": 16,
+                            "text": "Encryption"
+                        },
+                        {
+                            "value": 17,
+                            "text": "Aggregation"
+                        },
+                        {
+                            "value": 19,
+                            "text": "Limitation of usage"
+                        },
+                        {
+                            "value": 20,
+                            "text": "Data segregation"
+                        },
+                        {
+                            "value": 21,
+                            "text": "Sticky Policies"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question36",
+                    "title": "If you use encryption methods, are you responsible for encrypting and decrypting the information that you process? If you are the only one responsible for encrypting and decrypting the information you process, you are subsequently the only one who has control over this information. Instead, if you have given such a competence to a cloud service provider you do not have the same level of control over the information.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question37",
+                    "title": "Do the protection measures you have in place, in case of unwarranted incidents, specifically target the particular type of incident that might happen? For instance, in case of unauthorized access/disclosure/modification, intentional or reckless destruction of or damage to your equipment, loss or theft of your assets etc. Such incidents threaten the protection of personal information",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        },
+                        {
+                            "value": 2,
+                            "text": "I do not know"
+                        }
+
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question38",
+                    "title": "Do you take action in order to notify individuals in case of (security) incidents? E.g. by sending emails.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "checkbox",
+                    "name": "question39",
+                    "title": "Do you take action in order to notify individuals in case of (security) incidents? E.g. by sending emails.",
+                    "isRequired": true,
+                    "hasOther": true,
+                    "isRequired": true,
+                    "otherText": "Other (please indicate)",
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 0,
+                            "text": "Segregation of data bases"
+                        },
+                        {
+                            "value": 1,
+                            "text": "Limitation of use/transfer functionalities on system layer"
+                        },
+                        {
+                            "value": 2,
+                            "text": "Separation on system layer"
+                        },
+                        {
+                            "value": 3,
+                            "text": "Multi-tenancy limitations"
+                        },
+                        {
+                            "value": 4,
+                            "text": "Physical separation of infrastructure"
+                        }
+
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question40",
+                    "title": "Does the project(s) include the possibility by individuals to set retention periods on their own? Setting retention periods allows you to ensure that the information that you process about individuals is kept for no longer than is necessary for your operations.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question41",
+                    "title": "For how long do you store the information you are dealing with?",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 0,
+                            "text": "Only for the completion of the project’s purposes"
+                        },
+                        {
+                            "value": 1,
+                            "text": "Information is retained for a certain time after the project has been completed"
+                        },
+                        {
+                            "value": 2,
+                            "text": "Information is retained for the possibility of future uses or new purposes"
+                        },
+                        {
+                            "value": 3,
+                            "text": "Until individual requests for erasure"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Transfer of Information",
+            "questions": [{
+                    "type": "radiogroup",
+                    "name": "question42",
+                    "title": "Do you transfer the information you deal with to third parties? Do you, for instance, outsource the processing of the information you deal with to third parties?",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question43",
+                    "title": "Is the third parties' use compatible with the one you set for your undertaking? If you transfer information to third parties, they use the information in a manner consistent with your purpose(s) and their mandate.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        },
+                        {
+                            "value": 2,
+                            "text": "I do not know"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question44",
+                    "title": "Do you sell, rent or by any means disseminate information to third parties?",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question45",
+                    "title": "Are you transferring and/or simply disclosing personal information to a country or territory outside of the EEA? The EEA consists of the following countries: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxemburg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "checkbox",
+                    "name": "question46",
+                    "title": "Are you transferring personal information exclusively to one or more of the following non- EEA countries? Each of these countries are deemed to have adequate privacy protection in terms of the EU data protection regulations",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 0,
+                            "text": "Andorra"
+                        },
+                        {
+                            "value": 1,
+                            "text": "Argentina"
+                        },
+                        {
+                            "value": 2,
+                            "text": "Australia"
+                        },
+                        {
+                            "value": 3,
+                            "text": "Canada"
+                        },
+                        {
+                            "value": 4,
+                            "text": "Switzerland"
+                        },
+                        {
+                            "value": 5,
+                            "text": "Faeroe Islands"
+                        },
+                        {
+                            "value": 6,
+                            "text": "Guernsey"
+                        },
+                        {
+                            "value": 7,
+                            "text": "Israel"
+                        },
+                        {
+                            "value": 8,
+                            "text": "Isle of Man"
+                        },
+                        {
+                            "value": 9,
+                            "text": "Jersey"
+                        },
+                        {
+                            "value": 10,
+                            "text": "New Zealand"
+                        },
+                        {
+                            "value": 11,
+                            "text": "Uruguay"
+                        },
+                        {
+                            "value": 12,
+                            "text": "U.S."
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question47",
+                    "title": "Are measures in place to ensure an adequate level of security when the information is transferred outside of the EEA? Not all countries have the same level of protection as regards to the processing of personal information.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        },
+                        {
+                            "value": 2,
+                            "text": "I do not know"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Cloud Specific Questions",
+            "questions": [{
+                    "type": "radiogroup",
+                    "name": "question48",
+                    "title": "The potential threats to privacy and protection of personal information are influenced by the deployment model of the CSP. This means that the risk is higher if the number of the subjects who operate in the system is also high. The cloud infrastructure (hardware and/or software) I use is:",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 0,
+                            "text": "owned by or operated for only me (private cloud)"
+                        },
+                        {
+                            "value": 1,
+                            "text": "is owned by or operated for a specific group of users with common interests in a shared manner (community cloud)"
+                        },
+                        {
+                            "value": 2,
+                            "text": "is shared amongst multiple users (public cloud)"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question49",
+                    "title": "Does the service that you use consist of the provision of end user applications run by the cloud service provider? Think for instance of SalesForce CRM or Wuala.",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "radiogroup",
+                    "name": "question50",
+                    "title": "Are specific arrangements in place with regards to your information in case you want to terminate or transfer the cloud service? The application of such rules/procedures gives you the ability to have control/access over the information you process. For instance, you can transfer the information you process to another provider if needs be (bankruptcy, force majeure etc).",
+                    "isRequired": true,
+                    "colCount": 2,
+                    "choices": [{
+                            "value": 1,
+                            "text": "Yes"
+                        },
+                        {
+                            "value": 0,
+                            "text": "No"
+                        },
+                        {
+                            "value": 2,
+                            "text": "I do not know"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
