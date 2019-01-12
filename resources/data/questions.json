@@ -866,7 +866,7 @@
                 {
                     "type": "checkbox",
                     "name": "question39",
-                    "title": "Do you take action in order to notify individuals in case of (security) incidents? E.g. by sending emails.",
+                    "title": "What do you do to minimize the damages of physical, technical and/or security incidents?",
                     "isRequired": true,
                     "hasOther": true,
                     "isRequired": true,
