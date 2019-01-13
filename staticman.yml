@@ -1,0 +1,53 @@
+comments:
+  # (*) REQUIRED
+  #
+  # Names of the fields the form is allowed to submit. If a field that is
+  # not here is part of the request, an error will be thrown.
+  allowedFields: [
+  "question1",  "question2",  "question3a",  "question3b",  "question3c",  "question3d",  "question4",  "question5",  "question6",  "question7",  "question8",  "question9a", "question9b", "question10",  "question11",  "question12",  "question13",  "question14",  "question15",  "question16",  "question17",  "question18",  "question19",  "question20",  "question21",  "question22",  "question23",  "question24",  "question25",  "question26",  "question27",  "question28",  "question29",  "question30",  "question31",  "question32",  "question33",  "question34",  "question35",  "question36",  "question37",  "question38",  "question39",  "question40",  "question41",  "question42",  "question43",  "question44",  "question45",  "question46",  "question47",  "question48",  "question49",  "question50"]
+
+  # (*) REQUIRED
+  #
+  # Name of the branch being used. Must match the one sent in the URL of the
+  # request.
+  branch: "staticman"
+
+  # Text to use as the commit message or pull request title. Accepts placeholders.
+  commitMessage: "Staticman submission"
+
+  # (*) REQUIRED
+  #
+  # Destination path (filename) for the data files. Accepts placeholders.
+  filename: "entry{@timestamp}"
+
+  # The format of the generated data files. Accepted values are "json", "yaml"
+  # or "frontmatter"
+  format: "json"
+
+  # List of fields to be populated automatically by Staticman and included in
+  # the data file. Keys are the name of the field. The value can be an object
+  # with a `type` property, which configures the generated field, or any value
+  # to be used directly (e.g. a string, number or array)
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"
+
+  # Whether entries need to be appproved before they are published to the main
+  # branch. If set to `true`, a pull request will be created for your approval.
+  # Otherwise, entries will be published to the main branch automatically.
+  moderation: false
+
+
+  # (*) REQUIRED
+  #
+  # Destination path (directory) for the data files. Accepts placeholders.
+  path: "_data/dpia/{options.slug}"
+
+  # Names of required fields. If any of these isn't in the request or is empty,
+  # an error will be thrown.
+  requiredFields: []
+
+  # List of transformations to apply to any of the fields supplied. Keys are
+  # the name of the field and values are possible transformation types.
