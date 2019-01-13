@@ -1,11 +1,8 @@
-data:
   # (*) REQUIRED
   #
   # Names of the fields the form is allowed to submit. If a field that is
   # not here is part of the request, an error will be thrown.
-  allowedFields: [
-  "question1",  "question2",  "question3a",  "question3b",  "question3c",  "question3d",  "question4",  "question5",  "question6",  "question7",  "question8",  "question9a", "question9b", "question10",  "question11",  "question12",  "question13",  "question14",  "question15",  "question16",  "question17",  "question18",  "question19",  "question20",  "question21",  "question22",  "question23",  "question24",  "question25",  "question26",  "question27",  "question28",  "question29",  "question30",  "question31",  "question32",  "question33",  "question34",  "question35",  "question36",  "question37",  "question38",  "question39",  "question40",  "question41",  "question42",  "question43",  "question44",  "question45",  "question46",  "question47",  "question48",  "question49",  "question50"]
-
+  allowedFields: [ "question1",  "question2",  "question3a",  "question3b",  "question3c",  "question3d",  "question4",  "question5",  "question6",  "question7",  "question8",  "question9a", "question9b", "question10",  "question11",  "question12",  "question13",  "question14",  "question15",  "question16",  "question17",  "question18",  "question19",  "question20",  "question21",  "question22",  "question23",  "question24",  "question25",  "question26",  "question27",  "question28",  "question29",  "question30",  "question31",  "question32",  "question33",  "question34",  "question35",  "question36",  "question37",  "question38",  "question39",  "question40",  "question41",  "question42",  "question43",  "question44",  "question45",  "question46",  "question47",  "question48",  "question49",  "question50"]
   # (*) REQUIRED
   #
   # Name of the branch being used. Must match the one sent in the URL of the
