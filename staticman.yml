@@ -1,4 +1,4 @@
-comments:
+data:
   # (*) REQUIRED
   #
   # Names of the fields the form is allowed to submit. If a field that is
