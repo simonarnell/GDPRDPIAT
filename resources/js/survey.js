@@ -12,6 +12,20 @@ $(document).ready(function() {
 })
 
 function sendDataToServer(survey) {
-  var resultAsString = JSON.stringify(survey.data);
-  alert(resultAsString); //send Ajax request to your web server.
+  var formdata = new FormData();
+  Object.keys(survey.data).forEach(function(key) {
+    if (key != "question9")
+      formdata.append("fields[" + key + "]", survey.data[key].toString())
+    else {
+      Object.keys(survey.data[key]).forEach(function(index) {
+        var letter = String.fromCharCode(97 + (index - 1))
+        formdata.append("fields[" + key + letter + "]", survey.data[key][index].toString())
+      })
+    }
+  })
+  var data = new URLSearchParams(formdata);
+  fetch("https://dev.staticman.net/v2/entry/simonarnell/GDPRDPIAT/staticman/", {
+    method: "POST",
+    body: data
+  })
 }
