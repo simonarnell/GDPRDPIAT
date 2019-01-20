@@ -24,7 +24,7 @@ function sendDataToServer(survey) {
     }
   })
   var data = new URLSearchParams(formdata);
-  fetch("https://dev.staticman.net/v3/entry/simonarnell/GDPRDPIAT/staticman/", {
+  fetch("https://dev.staticman.net/v3/entry/simonarnell/GDPRDPIAT/staticman/dpia", {
     method: "POST",
     body: data
   })
