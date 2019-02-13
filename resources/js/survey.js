@@ -13,6 +13,7 @@ $(document).ready(function() {
 
 function sendDataToServer(survey) {
   var formdata = new FormData();
+  formdata.append("options[redirect]", "https://github.com/simonarnell/GDPRDPIAT/tree/staticman/_data/dpia")
   Object.keys(survey.data).forEach(function(key) {
     if (key != "question9")
       formdata.append("fields[" + key + "]", survey.data[key].toString())
