@@ -1,0 +1,27 @@
+{
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  color: #444
+}
+
+.forkme {
+  position: absolute;
+  top: 0px;
+  left: 0px
+}
+
+.footer {
+  text-align: right;
+  margin: 5px;
+}
