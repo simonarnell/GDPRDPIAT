@@ -273,16 +273,16 @@
           ],
           "name": "question9",
           "rows": [{
-              "value": 0,
-              "text": "the purposes for which you process personal information"
-            },
-            {
               "value": 1,
               "text": "the different types of information that you process"
             },
             {
               "value": 2,
               "text": "your identity"
+            },
+            {
+              "value": 3,
+              "text": "the purposes for which you process personal information"
             }
           ]
         },
