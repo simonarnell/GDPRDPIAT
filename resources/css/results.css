@@ -1,0 +1,21 @@
+article {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tick {
+  color: black;
+}
+
+.response {
+  fill: #003399;
+}
+
+.legend.swatch {
+  stroke: white;
+  stroke-width: 2;
+}
+
+.legend.label {
+  text-anchor: middle;
+}
