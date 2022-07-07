@@ -1,5 +1,5 @@
 Survey.defaultBootstrapCss.navigationButton = "btn btn-primary";
-Survey.Survey.cssType = "bootstrap";
+Survey.StylesManager.applyTheme("bootstrap")
 
 $(document).ready(function() {
   $.getJSON("resources/data/questions.json", function(json) {
